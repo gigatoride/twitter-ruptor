@@ -12,7 +12,7 @@ git clone https://github.com/gigatoride/twitter-ruptor.git
 ```
 Quick help for options and commands
 ```
-npm start
+npm help
 ```
 
 ### Commands
@@ -25,7 +25,7 @@ Options|||
 Run the tool with the following command
 
 ```
-node index b -c 1 -l 11 success.txt
+node index b -c 1 -l 11 -o success.txt
 ```
 
 #### Notes
@@ -46,7 +46,7 @@ DATABASE_NAME=your_database_name
 Then run the tool with the following command
 
 ```
-node index b -c 2 -l 11 results.txt -d
+node index b -c 2 -l 11 -o results.txt -d
 ```
 
 ## Bugs
