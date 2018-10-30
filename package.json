@@ -1,0 +1,30 @@
+{
+  "name": "twitter-ruptor",
+  "version": "0.0.1",
+  "description": "A command-line tool for mass random brute force using phone numbers.",
+  "main": "index.js",
+  "scripts": {
+    "help": "node index --help"
+  },
+  "author": "gigatoride",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.17.1",
+    "dotenv": "^6.0.0",
+    "mongodb": "^3.1.3",
+    "osmosis": "^1.1.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gigatoride/twitter-ruptor.git"
+  },
+  "keywords": [
+    "brute",
+    "force"
+  ],
+  "bugs": {
+    "url": "https://github.com/gigatoride/twitter-ruptor/issues"
+  },
+  "homepage": "https://github.com/gigatoride/twitter-ruptor#readme"
+}
